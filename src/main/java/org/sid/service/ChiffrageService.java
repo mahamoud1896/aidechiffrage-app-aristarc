@@ -252,7 +252,7 @@ public class ChiffrageService implements IchiffrageService{
 		
 		List<Action> actions = listAction();
 		for(Action action : actions) {
-		 // User user = new User(); <-- This would work, you get a new one each time
+		 
 		 role.setId(action.getId());
 		 
 		}
@@ -303,8 +303,8 @@ public class ChiffrageService implements IchiffrageService{
 	public TypeProjet saveTypeProjet(TypeProjet typeProjet) {
 		
 		/*
-		 * List<Offre> offres = listOffre(null); for(Offre offre : offres) { // User
-		 * user = new User(); <-- This would work, you get a new one each time
+		 * List<Offre> offres = listOffre(null); for(Offre offre : offres) { 
+		 * 
 		 * typeProjet.setId(offre.getId());
 		 * 
 		 * }
@@ -796,8 +796,8 @@ Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
 		
 		/*
 		 * List<Role> roles = listRole(); //Role role =
-		 * roleRepository.findById(roleId).get(); for(Role role : roles) { // User user
-		 * = new User(); <-- This would work, you get a new one each time
+		 * roleRepository.findById(roleId).get(); for(Role role : roles) { 
+		 * 
 		 * Collection<Role> userRoles = user.getRoles(); userRoles.add(role);
 		 * user.setRoles(userRoles);
 		 * 
@@ -808,8 +808,8 @@ Pageable pageable = PageRequest.of(pageNo - 1, pageSize);
 		 */
 		
 		/*
-		 * List<Role> roles = listRole(); for(Role role : roles) { // User user = new
-		 * User(); <-- This would work, you get a new one each time
+		 * List<Role> roles = listRole(); for(Role role : roles) {
+		 * 
 		 * user.setUserId(role.getId());
 		 * 
 		 * }
